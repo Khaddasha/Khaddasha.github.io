@@ -1,33 +1,59 @@
+/* Apply a background image to the body */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-image: url('background1.jpg'); /* Replace with the path to your first background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   margin: 0;
   padding: 0;
 }
 
+/* Style the container */
 .container {
   text-align: center;
   margin-top: 100px;
-}
-
-.blurb {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to the container */
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+/* Style the blurb content */
+.blurb {
+  padding: 20px;
+  color: #333; /* Text color */
+}
+
+/* Style the footer */
 footer {
   text-align: center;
   margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.8); /* Add a semi-transparent black background to the footer */
+  padding: 20px;
+  color: #fff; /* Text color */
 }
 
-footer ul {
-  list-style: none;
-  padding: 0;
+/* Style footer links */
+footer a {
+  color: #fff; /* Link color */
+  text-decoration: none;
+  margin: 0 10px;
 }
 
-footer li {
-  display: inline;
-  margin-right: 20px;
+/* Add styles for your summary */
+.summary {
+  background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to the summary */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #333; /* Text color */
+  margin: 20px;
+}
+
+/* Customize your summary style */
+.summary p {
+  font-size: 18px;
+  line-height: 1.5;
 }
