@@ -1,7 +1,7 @@
 /* Apply a background image to the body */
 body {
   font-family: Arial, sans-serif;
-  background-image: url('background1.jpg'); /* Replace with the path to your first background image */
+  background-image: url('images.jpeg'); /* Replace with the actual filename of your first background image */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
