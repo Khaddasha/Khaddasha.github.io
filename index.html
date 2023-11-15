@@ -8,7 +8,9 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
+            background-color: #f4f4f4; /* Fallback color */
+            background-image: url('BG.jpg'); /* Assuming BG.jpg is in the same directory as your HTML file */
+            background-size: cover;
             margin: 0;
             padding: 0;
         }
@@ -17,7 +19,7 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #fff;
+            background-color: rgba(255, 255, 255, 0.8); /* Background color for your content container with some opacity */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             margin-top: 30px;
         }
